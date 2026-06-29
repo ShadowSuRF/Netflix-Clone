@@ -1,0 +1,53 @@
+netflix-clone/
+├── frontend/                    # React + TypeScript + Tailwind
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── Hero.tsx
+│   │   │   ├── MovieRow.tsx
+│   │   │   ├── MovieCard.tsx
+│   │   │   ├── MovieModal.tsx
+│   │   │   ├── VideoPlayer.tsx
+│   │   │   └── Footer.tsx
+│   │   ├── pages/
+│   │   │   ├── LandingPage.tsx
+│   │   │   ├── LoginPage.tsx
+│   │   │   ├── RegisterPage.tsx
+│   │   │   ├── HomePage.tsx
+│   │   │   ├── MoviesPage.tsx
+│   │   │   ├── TVShowsPage.tsx
+│   │   │   ├── WatchPage.tsx
+│   │   │   ├── MyListPage.tsx
+│   │   │   └── ProfilePage.tsx
+│   │   ├── context/
+│   │   │   ├── AuthContext.tsx
+│   │   │   └── MovieContext.tsx
+│   │   ├── hooks/
+│   │   │   ├── useAuth.ts
+│   │   │   └── useMovies.ts
+│   │   ├── services/
+│   │   │   └── api.ts
+│   │   ├── types/
+│   │   │   └── index.ts
+│   │   └── utils/
+│   │       └── helpers.ts
+├── backend/                     # Node.js + Express + TypeScript
+│   ├── src/
+│   │   ├── controllers/
+│   │   │   ├── authController.ts
+│   │   │   ├── movieController.ts
+│   │   │   └── userController.ts
+│   │   ├── middleware/
+│   │   │   ├── auth.ts
+│   │   │   └── errorHandler.ts
+│   │   ├── models/
+│   │   │   ├── User.ts
+│   │   │   ├── Movie.ts
+│   │   │   └── WatchHistory.ts
+│   │   ├── routes/
+│   │   │   ├── authRoutes.ts
+│   │   │   ├── movieRoutes.ts
+│   │   │   └── userRoutes.ts
+│   │   └── server.ts
+├── .gitignore
+└── README.md
